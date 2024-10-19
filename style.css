@@ -1,0 +1,913 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: 0px;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    
+}
+.logo{
+    height: 50 px;
+    width: 270px;
+    background-image: url(logo1.png);
+    background-size: cover;
+    align-items: center;
+    justify-self: center;
+    margin-left: 10px;
+    margin-right: 200px;
+}
+.search{
+    color: aliceblue;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 20px;
+    
+}
+
+#icon{
+    height: 10px; 
+    width: 150 px;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.phone{
+display: flex;
+margin-left: 40px;
+    margin-right: 40px;
+}
+.input{
+    height: 40px;
+    width: 400px;
+    border: 2px;
+    border: 1.5px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+font-size: 1rem;}
+.input:hover{
+    border: 1.5px solid red;
+}
+#ayu{
+    height: 42px;
+    width: 25px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color:rgb(211, 128, 5) ;
+    border: 1.5px solid white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#ayu:hover{
+    border: 1.5px solid red;
+    background-color:rgb(245, 42, 75);
+    
+}
+
+    .navbar2{
+        height: 40px;
+        background-color: white;
+        display: flex;
+        
+    justify-content: center;
+        align-items: center;
+    }
+    #a{
+        margin-right: 60px;
+        margin-left: 20px;
+    }
+    #b{
+        margin-right: 60px;
+    }
+    #c{
+        margin-right: 60px;
+    }
+    #d{
+        margin-right: 70px;
+    }
+    #contact{
+        height:40px;
+        width: 60 px;
+        color: black;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 40px;
+    
+    }
+    #a:hover{
+        border: 1.5px solid black;
+        color: blue;
+    }
+    #b:hover{
+        border: 1.5px solid black;
+        color: blue;
+    }
+    #c:hover{
+        border: 1.5px solid black;
+        color: blue;
+    }
+    #d:hover{
+        border: 1.5px solid black;
+        color: blue;
+    }
+    .su{  
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .su:hover{
+        color: blue;
+        border: 1.5px solid black;
+    }
+    #e:hover{
+        
+        color: blue;
+    }
+    #contack:hover{
+
+     color: blue;   
+    }
+    #e{margin-bottom: 8px;
+        margin-top: 20px;
+        margin-right: 140px;
+    }
+    #f{ 
+        margin-right: 80px;
+    }
+    #f:hover{
+        border: 1.5px solid black;
+        color: blue;
+    }
+    #insta{
+        
+        height: 20px;
+        width: 40px;
+    }
+    
+#facebok
+       {
+        height: 20px;
+        width: 50px;
+        margin-left: 40px;
+    }
+    #linkedin{
+    
+        height: 20px;
+        width: 50px;
+        margin-left: 40px;
+    }
+    #insta:hover{
+        color: rgb(240, 80, 106);
+    }
+    #facebook:hover{
+        color: blue;
+    }
+    #linkedin:hover{
+        color: blue;
+    }
+    .home
+    {
+        height: 400px;
+        background-color: black;
+    }
+    .name{
+        height: 400px;
+        width: 100%;
+        background-image: url(homepage.jpeg);
+        background-size:cover ;
+    }
+    .object{
+
+        height: 350px;
+        
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ayush{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:15px ;
+        margin-right: 40PX;
+    }
+    #sum{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .odd{
+        height: 180px;
+        width: 280px;
+        background-color: red;
+        background-image: url(cancer.jpeg);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .even{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    } 
+    .verma{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:40px ;
+        margin-right: 40PX;
+        
+    }
+    #shukla{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .abhi{
+        height: 180px;
+        width: 280px;
+        
+        background-image: url(tb.png);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .shek{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }  
+    .kumar{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:40px ;
+        margin-right: 15px;
+        
+    }
+    #mah{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .boob{
+        height: 180px;
+        width: 280px;
+        background-color: red;
+        background-image: url(hiv.jpeg);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .ali{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    } .object1{
+
+        height: 350px;
+        
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ayush1{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:15px ;
+        margin-right: 40PX;
+    }
+    #sum1{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .odd1{
+        height: 180px;
+        width: 280px;
+        background-color: red;
+        background-image: url(mal.webp);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .even1{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    } 
+    .verma1{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:40px ;
+        margin-right: 40PX;
+        
+    }
+    #shukla1{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .abhi1{
+        height: 180px;
+        width: 280px;
+        background-color: red;
+        background-image: url(dep.jpeg);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .shek1{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }  
+    .kumar1{
+        height: 330px;
+        width: 300px;
+        background-color: white;
+        margin-left:40px ;
+        margin-right: 15px;
+        
+    }
+    #mah1{
+        color: red;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .boob1{
+        height: 180px;
+        width: 280px;
+        background-color: red;
+        background-image: url(asthma.png);
+        background-size:cover;
+        margin-left:10px ;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    .ali1{
+        background-color: black;
+        border: 4px solid red;
+        color: red;
+        padding: 5px 10px;
+        text-align: center;
+        display: inline-block ;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }   .object2{
+
+    height: 350px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ayush2{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:15px ;
+    margin-right: 40PX;
+}
+#sum2{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.odd2{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image: url(alza.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.even2{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+} 
+.verma2{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 40PX;
+    
+}
+#shukla2{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.abhi2{
+    height: 180px;
+    width: 280px;
+    background-color:black;
+    background-image: url(dia.png);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.shek2{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.kumar2{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 15px;
+    
+}
+#mah2{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.boob2{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image: url( hyper.png);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.ali2{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.object3{
+
+    height: 350px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ayush3{
+    height: 330px;
+    width: 300px;
+    background-color:white;
+    margin-left:15px ;
+    margin-right: 40PX;
+}
+#sum3{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.odd3{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image:url(corona.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.even3{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+} 
+.verma3{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 40PX;
+    
+}
+#shukla3{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.abhi3{
+    height: 180px;
+    width: 280px;
+    background-color:black;
+    background-image: url(eye.png);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.shek3{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.kumar3{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 15px;
+    
+}
+#mah3{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.boob3{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image: url(anxiety.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.ali3{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.object4{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ayush4{
+    height: 330px;
+    width: 300px;
+    background-color:white;
+    margin-left:15px ;
+    margin-right: 40PX;
+}
+#sum4{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.odd4{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image:url(anamia.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.even4{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+} 
+.verma4{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 40PX;
+    
+}
+#shukla4{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.abhi4{
+    height: 180px;
+    width: 280px;
+    background-color:black;
+    background-image: url(thyroid.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.shek4{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.kumar4{
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    margin-left:40px ;
+    margin-right: 15px;
+    
+}
+#mah4{
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.boob4{
+    height: 180px;
+    width: 280px;
+    background-color: red;
+    background-image: url(malnu.jpeg);
+    background-size:cover;
+    margin-left:10px ;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.ali4{
+    background-color: black;
+    border: 4px solid red;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block ;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}  
+.raj{
+    display: flex;
+    height: 280px;
+    background-color: rgb(109, 100, 100);
+}
+.footer{
+    display: flex;
+   height: 200px;
+}
+.foot{
+    margin: 40px 20px;
+}
+ul{
+    margin: 30px 60px;
+}
+li{list-style: none;
+    margin-bottom:30px ;
+}
+.follow{
+    margin-left: 500px;
+}
+icon{
+    display: flex;
+    margin:auto;
+}
+    #inst{
+        color: rgb(216, 31, 93);
+    }
+    #fac{
+        color: blue;
+    }
+    #lin{
+        color: blue;
+    }
+    #twit{
+        color: blue;
+    }
+    .man{
+        margin-right: 20px;
+    }
